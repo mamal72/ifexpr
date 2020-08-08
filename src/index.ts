@@ -1,1 +1,3 @@
-export * from './lib/ifexpr'
+import { ifexpr } from './lib/ifexpr'
+
+export default ifexpr

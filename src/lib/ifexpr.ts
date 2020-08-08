@@ -8,7 +8,7 @@ export function ifexpr<T>(
 
 // @ts-ignore
 // tslint:disable-next-line
-export default function ifexpr<T>(condition, truthy, falsy) {
+export function ifexpr<T>(condition, truthy, falsy) {
   const conditionResult =
     typeof condition === 'function' ? condition() : condition
 

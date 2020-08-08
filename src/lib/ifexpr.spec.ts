@@ -1,6 +1,6 @@
 // tslint:disable:no-expression-statement
 import test from 'ava'
-import ifexpr from './ifexpr'
+import { ifexpr } from './ifexpr'
 
 test('value as return type', (t) => {
   t.is(ifexpr(true, true, false), true)
